@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import google.generativeai as genai
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 def extract_subtext(text):
     start_marker = "[["
@@ -17,7 +17,7 @@ def extract_subtext(text):
         return None
 
 
-load_dotenv()
+# load_dotenv()
 st.set_page_config(
     page_title="Welcome To AQ Institute",
     page_icon=":robot_face:",
